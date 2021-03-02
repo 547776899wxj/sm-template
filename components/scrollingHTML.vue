@@ -52,5 +52,6 @@
 	.content{
 		background-color: rgb(151,217,253);
 		border-radius: 20rpx;
+		font-size: 40px;
 	}
 </style>

@@ -119,6 +119,7 @@ export default {
 	padding: 18rpx 24rpx;
 	overflow: hidden;
 	color:#fff;
+	width: 100%;
 }
 
 .t-direction-row {

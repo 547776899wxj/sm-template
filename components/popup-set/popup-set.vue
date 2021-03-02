@@ -117,9 +117,11 @@ export default {
 		},
 		navTo(){
 			uni.setStorageSync('pageSetBoolean',false);
-			this.$tui.webView.redirectTo({
-				url: '../index/index?webView=true',
-			})
+			// #ifdef H5 
+				this.$tui.webView.redirectTo({
+					url: '../index/index?webView=true',
+				})
+			// #endif
 			// this.$emit("navTo");
 			
 		},
