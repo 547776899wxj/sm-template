@@ -35,6 +35,7 @@
 		<view class="bottom d-flex align-items-center" v-if="isShowNoticeBar && text.length>0">
 			<tNoticeBar :list="text"></tNoticeBar>
 		</view>
+		
 		<popupSet ref="popupSet"  @confirm="confirm"></popupSet>
 	</view>
 </template>
@@ -62,7 +63,7 @@
 					// 			type:1,
 					// 		},
 					// 		{
-					// 			url: 'http://www.guanjinco.com/buildersystem/upload/video/shanghaiPartner.mp4',
+					// 			url: '../../static/test.mp4',
 					// 			type:2,
 					// 		},
 					// 	],
@@ -75,7 +76,7 @@
 					// },
 				],
 				//横竖屏
-				isVertical:true,
+				isVertical:false,
 				//顶部信息
 				isShowData:true,
 				//底部滚动
